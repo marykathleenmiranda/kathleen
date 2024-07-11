@@ -3,35 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website ni kath</title>
+    <title>Your Name - Personal Website</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Welcome to My Website</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <img src="image.png" alt="kathleenimg">
-            <p>kathleen</p>
-        </div>
-    </section>
-
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself.</p>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <!-- Showcase your projects or work -->
+            <div class="project">
+                <img src="image.png" alt="Project Image">
+                <h3>Project Title</h3>
+                <p>Description of the project.</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </section>
+    </main>
+    
     <footer>
-        <div class="container">
-            <p>&copy; 2024 kathleen. All rights reserved.</p>
-        </div>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
